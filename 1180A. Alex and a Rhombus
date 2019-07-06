@@ -1,0 +1,1035 @@
+    #include <iostream>
+    using namespace std;
+     
+    int main() {
+    	
+    	int x;
+    	scanf("%d",&x);
+    	
+    	printf("%d\n",(x*x)+(x-1)*(x-1));
+    	
+    	return 0;
+    }
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+→Judgement Protocol
+Test: #1, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+1
+
+Output
+
+1
+
+Answer
+
+1
+
+Checker Log
+
+ok 1 number(s): "1"
+
+Test: #2, time: 0 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+2
+
+Output
+
+5
+
+Answer
+
+5
+
+Checker Log
+
+ok 1 number(s): "5"
+
+Test: #3, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+3
+
+Output
+
+13
+
+Answer
+
+13
+
+Checker Log
+
+ok 1 number(s): "13"
+
+Test: #4, time: 0 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+11
+
+Output
+
+221
+
+Answer
+
+221
+
+Checker Log
+
+ok 1 number(s): "221"
+
+Test: #5, time: 0 ms., memory: 4 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+21
+
+Output
+
+841
+
+Answer
+
+841
+
+Checker Log
+
+ok 1 number(s): "841"
+
+Test: #6, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+31
+
+Output
+
+1861
+
+Answer
+
+1861
+
+Checker Log
+
+ok 1 number(s): "1861"
+
+Test: #7, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+41
+
+Output
+
+3281
+
+Answer
+
+3281
+
+Checker Log
+
+ok 1 number(s): "3281"
+
+Test: #8, time: 0 ms., memory: 4 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+51
+
+Output
+
+5101
+
+Answer
+
+5101
+
+Checker Log
+
+ok 1 number(s): "5101"
+
+Test: #9, time: 15 ms., memory: 8 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+100
+
+Output
+
+19801
+
+Answer
+
+19801
+
+Checker Log
+
+ok 1 number(s): "19801"
+
+Test: #10, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+34
+
+Output
+
+2245
+
+Answer
+
+2245
+
+Checker Log
+
+ok 1 number(s): "2245"
+
+Test: #11, time: 15 ms., memory: 4 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+25
+
+Output
+
+1201
+
+Answer
+
+1201
+
+Checker Log
+
+ok 1 number(s): "1201"
+
+Test: #12, time: 31 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+37
+
+Output
+
+2665
+
+Answer
+
+2665
+
+Checker Log
+
+ok 1 number(s): "2665"
+
+Test: #13, time: 0 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+39
+
+Output
+
+2965
+
+Answer
+
+2965
+
+Checker Log
+
+ok 1 number(s): "2965"
+
+Test: #14, time: 0 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+78
+
+Output
+
+12013
+
+Answer
+
+12013
+
+Checker Log
+
+ok 1 number(s): "12013"
+
+Test: #15, time: 15 ms., memory: 4 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+87
+
+Output
+
+14965
+
+Answer
+
+14965
+
+Checker Log
+
+ok 1 number(s): "14965"
+
+Test: #16, time: 31 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+26
+
+Output
+
+1301
+
+Answer
+
+1301
+
+Checker Log
+
+ok 1 number(s): "1301"
+
+Test: #17, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+8
+
+Output
+
+113
+
+Answer
+
+113
+
+Checker Log
+
+ok 1 number(s): "113"
+
+Test: #18, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+94
+
+Output
+
+17485
+
+Answer
+
+17485
+
+Checker Log
+
+ok 1 number(s): "17485"
+
+Test: #19, time: 0 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+68
+
+Output
+
+9113
+
+Answer
+
+9113
+
+Checker Log
+
+ok 1 number(s): "9113"
+
+Test: #20, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+90
+
+Output
+
+16021
+
+Answer
+
+16021
+
+Checker Log
+
+ok 1 number(s): "16021"
+
+Test: #21, time: 15 ms., memory: 4 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+72
+
+Output
+
+10225
+
+Answer
+
+10225
+
+Checker Log
+
+ok 1 number(s): "10225"
+
+Test: #22, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+99
+
+Output
+
+19405
+
+Answer
+
+19405
+
+Checker Log
+
+ok 1 number(s): "19405"
+
+Test: #23, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+4
+
+Output
+
+25
+
+Answer
+
+25
+
+Checker Log
+
+ok 1 number(s): "25"
+
+Test: #24, time: 0 ms., memory: 8 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+22
+
+Output
+
+925
+
+Answer
+
+925
+
+Checker Log
+
+ok 1 number(s): "925"
+
+Test: #25, time: 30 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+35
+
+Output
+
+2381
+
+Answer
+
+2381
+
+Checker Log
+
+ok 1 number(s): "2381"
+
+Test: #26, time: 30 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+75
+
+Output
+
+11101
+
+Answer
+
+11101
+
+Checker Log
+
+ok 1 number(s): "11101"
+
+Test: #27, time: 0 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+70
+
+Output
+
+9661
+
+Answer
+
+9661
+
+Checker Log
+
+ok 1 number(s): "9661"
+
+Test: #28, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+52
+
+Output
+
+5305
+
+Answer
+
+5305
+
+Checker Log
+
+ok 1 number(s): "5305"
+
+Test: #29, time: 0 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+74
+
+Output
+
+10805
+
+Answer
+
+10805
+
+Checker Log
+
+ok 1 number(s): "10805"
+
+Test: #30, time: 31 ms., memory: 4 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+42
+
+Output
+
+3445
+
+Answer
+
+3445
+
+Checker Log
+
+ok 1 number(s): "3445"
+
+Test: #31, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+40
+
+Output
+
+3121
+
+Answer
+
+3121
+
+Checker Log
+
+ok 1 number(s): "3121"
+
+Test: #32, time: 31 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+15
+
+Output
+
+421
+
+Answer
+
+421
+
+Checker Log
+
+ok 1 number(s): "421"
+
+Test: #33, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+49
+
+Output
+
+4705
+
+Answer
+
+4705
+
+Checker Log
+
+ok 1 number(s): "4705"
+
+Test: #34, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+89
+
+Output
+
+15665
+
+Answer
+
+15665
+
+Checker Log
+
+ok 1 number(s): "15665"
+
+Test: #35, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+7
+
+Output
+
+85
+
+Answer
+
+85
+
+Checker Log
+
+ok 1 number(s): "85"
+
+Test: #36, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+38
+
+Output
+
+2813
+
+Answer
+
+2813
+
+Checker Log
+
+ok 1 number(s): "2813"
+
+Test: #37, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+19
+
+Output
+
+685
+
+Answer
+
+685
+
+Checker Log
+
+ok 1 number(s): "685"
+
+Test: #38, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+56
+
+Output
+
+6161
+
+Answer
+
+6161
+
+Checker Log
+
+ok 1 number(s): "6161"
+
+Test: #39, time: 0 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+76
+
+Output
+
+11401
+
+Answer
+
+11401
+
+Checker Log
+
+ok 1 number(s): "11401"
+
+Test: #40, time: 30 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+86
+
+Output
+
+14621
+
+Answer
+
+14621
+
+Checker Log
+
+ok 1 number(s): "14621"
+
+Test: #41, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+47
+
+Output
+
+4325
+
+Answer
+
+4325
+
+Checker Log
+
+ok 1 number(s): "4325"
+
+Test: #42, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+62
+
+Output
+
+7565
+
+Answer
+
+7565
+
+Checker Log
+
+ok 1 number(s): "7565"
+
+Test: #43, time: 30 ms., memory: 12 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+9
+
+Output
+
+145
+
+Answer
+
+145
+
+Checker Log
+
+ok 1 number(s): "145"
+
+Test: #44, time: 0 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+57
+
+Output
+
+6385
+
+Answer
+
+6385
+
+Checker Log
+
+ok 1 number(s): "6385"
+
+Test: #45, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+48
+
+Output
+
+4513
+
+Answer
+
+4513
+
+Checker Log
+
+ok 1 number(s): "4513"
+
+Test: #46, time: 31 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+5
+
+Output
+
+41
+
+Answer
+
+41
+
+Checker Log
+
+ok 1 number(s): "41"
+
+Test: #47, time: 0 ms., memory: 8 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+80
+
+Output
+
+12641
+
+Answer
+
+12641
+
+Checker Log
+
+ok 1 number(s): "12641"
+
+Test: #48, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+77
+
+Output
+
+11705
+
+Answer
+
+11705
+
+Checker Log
+
+ok 1 number(s): "11705"
+
+Test: #49, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+45
+
+Output
+
+3961
+
+Answer
+
+3961
+
+Checker Log
+
+ok 1 number(s): "3961"
+
+Test: #50, time: 0 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+13
+
+Output
+
+313
+
+Answer
+
+313
+
+Checker Log
+
+ok 1 number(s): "313"
+
+Test: #51, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+79
+
+Output
+
+12325
+
+Answer
+
+12325
+
+Checker Log
+
+ok 1 number(s): "12325"
+
+Test: #52, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+85
+
+Output
+
+14281
+
+Answer
+
+14281
+
+Checker Log
+
+ok 1 number(s): "14281"
+
+Test: #53, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+98
+
+Output
+
+19013
+
+Answer
+
+19013
+
+Checker Log
+
+ok 1 number(s): "19013"
+
+Test: #54, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+95
+
+Output
+
+17861
+
+Answer
+
+17861
+
+Checker Log
+
+ok 1 number(s): "17861"
+
+Test: #55, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+36
+
+Output
+
+2521
+
+Answer
+
+2521
+
+Checker Log
+
+ok 1 number(s): "2521"
+
+Test: #56, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+64
+
+Output
+
+8065
+
+Answer
+
+8065
+
+Checker Log
+
+ok 1 number(s): "8065"
+
+Test: #57, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+16
+
+Output
+
+481
+
+Answer
+
+481
+
+Checker Log
+
+ok 1 number(s): "481"
+
+Test: #58, time: 31 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+50
+
+Output
+
+4901
+
+Answer
+
+4901
+
+Checker Log
+
+ok 1 number(s): "4901"
+
+Test: #59, time: 31 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+53
+
+Output
+
+5513
+
+Answer
+
+5513
+
+Checker Log
+
+ok 1 number(s): "5513"
+
+Test: #60, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+24
+
+Output
+
+1105
+
+Answer
+
+1105
+
+Checker Log
+
+ok 1 number(s): "1105"
+
