@@ -1,0 +1,381 @@
+    #include <iostream>
+    using namespace std;
+     
+    int main() {
+    	
+    	int n;
+    	cin>>n;
+    	
+    	if(n%4==0)
+    		cout<<"1 A"<<endl;
+    	if(n%4==1)
+    		cout<<"0 A"<<endl;
+    	if(n%4==2)
+    		cout<<"1 B"<<endl;
+    	if(n%4==3)
+    		cout<<"2 A"<<endl;
+    	
+    	return 0;
+    }
+    
+    
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+→Judgement Protocol
+Test: #1, time: 0 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+33
+
+Output
+
+0 A
+
+Answer
+
+0 A
+
+Checker Log
+
+ok 2 tokens
+
+Test: #2, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+98
+
+Output
+
+1 B
+
+Answer
+
+1 B
+
+Checker Log
+
+ok 2 tokens
+
+Test: #3, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+100
+
+Output
+
+1 A
+
+Answer
+
+1 A
+
+Checker Log
+
+ok 2 tokens
+
+Test: #4, time: 0 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+30
+
+Output
+
+1 B
+
+Answer
+
+1 B
+
+Checker Log
+
+ok 2 tokens
+
+Test: #5, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+43
+
+Output
+
+2 A
+
+Answer
+
+2 A
+
+Checker Log
+
+ok 2 tokens
+
+Test: #6, time: 0 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+85
+
+Output
+
+0 A
+
+Answer
+
+0 A
+
+Checker Log
+
+ok 2 tokens
+
+Test: #7, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+91
+
+Output
+
+2 A
+
+Answer
+
+2 A
+
+Checker Log
+
+ok 2 tokens
+
+Test: #8, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+50
+
+Output
+
+1 B
+
+Answer
+
+1 B
+
+Checker Log
+
+ok 2 tokens
+
+Test: #9, time: 15 ms., memory: 4 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+67
+
+Output
+
+2 A
+
+Answer
+
+2 A
+
+Checker Log
+
+ok 2 tokens
+
+Test: #10, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+95
+
+Output
+
+2 A
+
+Answer
+
+2 A
+
+Checker Log
+
+ok 2 tokens
+
+Test: #11, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+32
+
+Output
+
+1 A
+
+Answer
+
+1 A
+
+Checker Log
+
+ok 2 tokens
+
+Test: #12, time: 0 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+60
+
+Output
+
+1 A
+
+Answer
+
+1 A
+
+Checker Log
+
+ok 2 tokens
+
+Test: #13, time: 0 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+88
+
+Output
+
+1 A
+
+Answer
+
+1 A
+
+Checker Log
+
+ok 2 tokens
+
+Test: #14, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+36
+
+Output
+
+1 A
+
+Answer
+
+1 A
+
+Checker Log
+
+ok 2 tokens
+
+Test: #15, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+83
+
+Output
+
+2 A
+
+Answer
+
+2 A
+
+Checker Log
+
+ok 2 tokens
+
+Test: #16, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+42
+
+Output
+
+1 B
+
+Answer
+
+1 B
+
+Checker Log
+
+ok 2 tokens
+
+Test: #17, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+59
+
+Output
+
+2 A
+
+Answer
+
+2 A
+
+Checker Log
+
+ok 2 tokens
+
+Test: #18, time: 0 ms., memory: 4 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+76
+
+Output
+
+1 A
+
+Answer
+
+1 A
+
+Checker Log
+
+ok 2 tokens
+
+Test: #19, time: 0 ms., memory: 4 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+93
+
+Output
+
+0 A
+
+Answer
+
+0 A
+
+Checker Log
+
+ok 2 tokens
+
+Test: #20, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+52
+
+Output
+
+1 A
+
+Answer
+
+1 A
+
+Checker Log
+
+ok 2 tokens
+
+Test: #21, time: 15 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+
+99
+
+Output
+
+2 A
+
+Answer
+
+2 A
+
+Checker Log
+
+ok 2 tokens
+
